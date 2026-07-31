@@ -47,7 +47,7 @@ mkdir -p "$parent_dir"
 work_dir=$(mktemp -d "$parent_dir/.openggoo-install.XXXXXX")
 stage_dir="$work_dir/openggoo"
 backup_dir="$work_dir/previous"
-mkdir -p "$stage_dir/agents" "$stage_dir/references"
+mkdir -p "$stage_dir/agents" "$stage_dir/assets" "$stage_dir/references"
 
 cleanup() {
   rm -rf "$work_dir"
@@ -58,7 +58,7 @@ curl -fsSL "$REPOSITORY_RAW_URL/manifest.sha256" -o "$work_dir/manifest.sha256"
 while read -r expected file; do
   [ -n "$expected" ] || continue
   case "$file" in
-    SKILL.md|LICENSE|agents/openai.yaml|references/api.md|references/mcp.md|references/sync.md|references/errors.md) ;;
+    SKILL.md|LICENSE|agents/openai.yaml|assets/logo.png|references/api.md|references/mcp.md|references/sync.md|references/errors.md) ;;
     *) echo "Unexpected manifest entry: $file" >&2; exit 4 ;;
   esac
   mkdir -p "$stage_dir/$(dirname "$file")"
