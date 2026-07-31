@@ -6,11 +6,13 @@
 
 <p align="center">让 AI 普惠大众～</p>
 
+<p align="center"><strong><a href="https://open.ggoo.ai">访问 Open GGOO：open.ggoo.ai</a></strong></p>
+
 <p align="center"><a href="README_EN.md">English</a></p>
 
 ## Open GGOO 是什么
 
-Open GGOO 是一个面向 AI 领域的开源项目信息与实时热榜平台。它持续发现 GitHub、GitLab 等代码平台上的 AI 开源项目，跟踪 Star 和项目活跃度变化，并用简洁中文解释项目是什么、当前数据如何。
+Open GGOO 是一个面向 AI 领域的开源项目信息与实时热榜平台。访问 [open.ggoo.ai](https://open.ggoo.ai) 查看实时热榜和项目资料。它持续发现 GitHub、GitLab 等代码平台上的 AI 开源项目，跟踪 Star 和项目活跃度变化，并用简洁中文解释项目是什么、当前数据如何。
 
 我们不按编程语言组织项目，而是按产品属性将项目分为 Agent、模型、Skills、应用、开发工具和基础设施等类别。用户可以直接查看 6 小时、24 小时、7 天和 30 天热榜，也可以搜索全部已收录的 AI 开源项目。
 

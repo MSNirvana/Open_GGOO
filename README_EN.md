@@ -6,11 +6,13 @@
 
 <p align="center">Make AI accessible to everyone.</p>
 
+<p align="center"><strong><a href="https://open.ggoo.ai">Visit Open GGOO: open.ggoo.ai</a></strong></p>
+
 <p align="center"><a href="README.md">中文</a></p>
 
 ## What Is Open GGOO?
 
-Open GGOO is an AI open-source project intelligence and real-time ranking platform. It continuously discovers AI projects across GitHub, GitLab, and other code platforms, tracks changes in Stars and project activity, and explains in concise Chinese what each project is and what its current data means.
+Open GGOO is an AI open-source project intelligence and real-time ranking platform. Visit [open.ggoo.ai](https://open.ggoo.ai) for current rankings and project profiles. It continuously discovers AI projects across GitHub, GitLab, and other code platforms, tracks changes in Stars and project activity, and explains in concise Chinese what each project is and what its current data means.
 
 Projects are organized by product type rather than programming language, including agents, models, skills, applications, developer tools, and infrastructure. Users can explore rankings for the last 6 hours, 24 hours, 7 days, or 30 days, or search the full catalog of collected AI open-source projects.
 
