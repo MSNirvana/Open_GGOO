@@ -1,0 +1,4 @@
+interface:
+  display_name: "Open GGOO"
+  short_description: "查询并解释实时 AI 开源项目热榜、项目资料和最新动态"
+  default_prompt: "Use $openggoo to find and explain the hottest AI open-source projects right now."
